@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    flex-wrap: wrap;
+    
+    width: 60vw;
+    border: 2px solid burlywood;
+    padding: 1rem;
+    box-shadow: 0px 0px 15px 10px rgba(255, 228, 196, 0.694);
+    background-color: rgba(13, 236, 9, 0.372);
+    border-radius: 1rem;
+}
+a{
+    /* margin-left: 1rem; */
+    height: 7vh;
+    width: 12rem;
+    background-color:white;
+    color: black;
+    padding: 1rem;
+    border-radius: .6rem;
+    margin-top: .8rem;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    background-color: blue;
+    color: white;
+    transition: all .4s ease-in-out;
+    transform: scale(1.1)
+    
+}
+.con{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    border-radius: .5rem;
+}
+.crad_container{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    flex-direction: row;
+}
+p{
+    margin-top: 1rem;
+    color: rgb(21, 18, 18);
+}
+.p{
+    color: black;
+}
+h2{
+    color: rgb(13, 12, 12);
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+i{
+    font-size: 1rem;
+    margin-right: .5rem;
+}
+button{
+    padding: .6rem;
+    width: 7rem;
+    margin-top: 1rem;
+    border-radius: .3rem;
+    border: none;
+    background-color: rgb(119, 126, 118);
+    color: rgb(235, 231, 231);
+    margin-left: 3rem;
+    height: 3rem;
+}
+.btn{
+    padding: .6rem;
+    width: 5rem;
+    border-radius: .3rem;
+    border: none;
+    background-color: rgb(119, 126, 118);
+    color: rgb(235, 231, 231);
+    margin-left: 3rem;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    height: 10vh;
+    width: 80vw;
+    margin-inline: auto;
+
+    border-radius: .3rem;
+    border-bottom: 2px solid rgba(245, 222, 179, 0.53);
+    padding-inline: 1rem;
+    box-shadow: 0px 0px 15px 10px rgb(212, 191, 191);
+}
+@media(max-width:768px){
+    .card{
+        height: 100%;
+        width: 100%;
+    }
+    img{
+       height: 140px;
+        width: 140px;
+    }
+    a{
+        height: 5vh;
+        width: 8rem;
+    }
+   
+}
